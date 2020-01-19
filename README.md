@@ -2,7 +2,7 @@
 
 ## 打包node_modules
 
-  ncc build src_modules.js -m -o build_modules
+  ncc build src_modules.js -m -o build_server_modules/server-modules
 
 ## 选项
 
@@ -15,3 +15,8 @@
   -q, --quiet              Disable build summaries / non-error outputs
   -w, --watch              Start a watched build
   --v8-cache               Emit a build using the v8 compile cache
+
+## 引入
+
+  通过设置 NODE_PATH=./build_server_modules 做到正常引入模块
+  例如 const {express,haha} = require('server-modules')
