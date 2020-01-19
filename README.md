@@ -1,8 +1,14 @@
 # ncc 打包
 
+## 版本环境
+
+  系统 Linux version 4.4.0-18362-Microsoft (Microsoft@Microsoft.com) (gcc version 5.4.0 (GCC) ) #1-Microsoft Mon Mar 18 12:02:00 PST 2019
+  node v10.15.3
+  yarn 1.15.2
+
 ## 打包node_modules
 
-  ncc build src_modules.js -m -o build_server_modules/server-modules
+  ncc build ./src_server_modules.js -m -o build_server_modules/server-modules
 
 ## 选项
 
@@ -20,3 +26,7 @@
 
   通过设置 NODE_PATH=./build_server_modules 做到正常引入模块
   例如 const {express,haha} = require('server-modules')
+
+## 测试demo
+
+  yarn start
