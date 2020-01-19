@@ -2,10 +2,9 @@
   "name": "ncc-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "/build_modules/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_PATH=./build_server_modules node ./server_deom.js"
+    "start": "NODE_PATH=./build_server_modules node ./server_demo.js"
   },
   "keywords": [],
   "author": "",

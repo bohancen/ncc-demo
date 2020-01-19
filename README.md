@@ -30,3 +30,5 @@
 ## 测试demo
 
   yarn start
+  pm2 start pm2.config.js --env dev
+  pm2 start pm2.config.js --env prod
