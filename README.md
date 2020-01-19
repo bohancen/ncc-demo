@@ -6,6 +6,7 @@
   系统 Linux version 4.4.0-18362-Microsoft (Microsoft@Microsoft.com) (gcc version 5.4.0 (GCC) ) #1-Microsoft Mon Mar 18 12:02:00 PST 2019
   node v10.15.3
   yarn 1.15.2
+  ncc 0.20.5 https://github.com/zeit/ncc
 ```
 
 ## 打包node_modules
